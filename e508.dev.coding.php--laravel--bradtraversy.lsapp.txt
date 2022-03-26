@@ -1,0 +1,11 @@
+cd /cygdrive/o/Dev/Env/Vagrant/Boxes/e508-lamp-ubuntu20.04-apache2.4-mysql5.7-php7.4
+vagrant up
+vagrant ssh
+
+fork bradtraversy/lsapp
+rename repo to dev.coding.php--laravel--bradtraversy.lsapp
+git clone to /o/Dev/Coding/PHP
+rename to e508.dev.coding.php--laravel--bradtraversy.lsapp
+
+cd /var/www/vhosts/dev.coding.php/e508.dev.coding.php--laravel--bradtraversy.lsapp
+composer install
